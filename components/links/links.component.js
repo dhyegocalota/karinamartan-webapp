@@ -7,25 +7,15 @@ export default function Links({ className, children, ...restProps }) {
     <div {...restProps}>
       <LinkButton
         className={styles.link}
-        to="https://bit.ly/imersao-2-0-mclass"
-        pulsing
+        to="https://instagram.com/martaninclass"
       >
-        Matrícula IMERSÃO 2.0 MCLASS 🧡
+        Seja Aluna do MClass 💃
       </LinkButton>
       <LinkButton
         className={styles.link}
-        to="https://bit.ly/karina-martan-fale-comigo"
+        to="https://www.youtube.com/@karinamartan"
       >
-        Fale Comigo 💃
-      </LinkButton>
-      <LinkButton
-        className={styles.link}
-        to="https://bit.ly/karina-martan-instagram"
-      >
-        Instagram @karinamartan
-      </LinkButton>
-      <LinkButton className={styles.link} to="https://bit.ly/karina-martan-loc">
-        📍 Localização
+        YouTube 🎥
       </LinkButton>
     </div>
   );
