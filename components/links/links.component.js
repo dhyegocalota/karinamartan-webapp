@@ -9,7 +9,7 @@ export default function Links({ className, children, ...restProps }) {
         className={styles.link}
         to="https://instagram.com/martaninclass"
       >
-        Seja Aluna do MClass 💃
+        Seja Aluna Martan InClass 💃
       </LinkButton>
       <LinkButton
         className={styles.link}
