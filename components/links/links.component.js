@@ -17,6 +17,12 @@ export default function Links({ className, children, ...restProps }) {
       >
         YouTube 🎥
       </LinkButton>
+      <LinkButton
+        className={styles.link}
+        to="https://bit.ly/karina-martan-fale-comigo"
+      >
+        WhatsApp 📲
+      </LinkButton>
     </div>
   );
 }
