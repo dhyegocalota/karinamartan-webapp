@@ -19,7 +19,7 @@ export default function Links({ className, children, ...restProps }) {
       </LinkButton>
       <LinkButton
         className={styles.link}
-        to="https://bit.ly/karina-martan-fale-comigo"
+        to="https://api.whatsapp.com/send?phone=5565996023672&text=Oi%20Karina,%20tenho%20interesse%20no%20seu%20trabalho%20de%20Dan%C3%A7a%20do%20Ventre."
       >
         WhatsApp 📲
       </LinkButton>
